@@ -1,5 +1,5 @@
 {
-  "name": "my-azure-app-backend",
+  "name": "ecp-tigers-backend",
   "version": "1.0.0",
   "description": "Backend for the Azure app using Express",
   "main": "src/app.js",
