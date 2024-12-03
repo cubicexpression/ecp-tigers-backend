@@ -38,6 +38,9 @@ app.get('/payment', (req, res) => {
 
 // Route to handle transaction list and get budget suggestions
 app.post('/suggest-budget', async (req, res) => {
+    console.log('Request body:', req.body);
+
+
     const transactions = req.body.transactions.map(tx => new Transaction(
         tx.customerId, tx.sortCode, tx.accountNumber, tx.date, tx.category, tx.amount
     ));

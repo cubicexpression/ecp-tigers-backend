@@ -1,7 +1,7 @@
 const { model } = require("mongoose");
 
 class Transaction {
-    constructor(customerId, sortCode, accountNumber, date, category, recurrence) {
+    constructor(customerId, sortCode, accountNumber, date, category, amount) {
         this.customerId = customerId;
         this.sortCode = sortCode;
         this.accountNumber = accountNumber;
